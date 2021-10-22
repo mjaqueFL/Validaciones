@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+<meta charset=utf-8 />
+<meta name=author content='Miguel Jaque' />
+<link rel=stylesheet href=css/reset.css />
+<link rel=stylesheet href=css/validaciones.css />
+
+<title>Validación de Formularios</title>
+</head>
+<body>
+
+<h2>Validación de Formularios</h2>
+<p>Ejercicio de Validación de Formularios.</p>
+
+<div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="iNombre">Nombre</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="iNombre" placeholder="Nombre ...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="iApellidos">Apellidos</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="iApellidos" placeholder="Apellidos...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="iEmail">Emilio</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="iEmail" placeholder="Correo eléctrico...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="iNIF">NIF</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="iNIF" placeholder="NIF...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="iTelefono">Teléfono</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="iTelefono" placeholder="Teléfono... mi caaasa...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="sComunidad">Comunidad Autónoma</label>
+    </div>
+    <div class="col-75">
+      <select id="sComunidad">
+        <option value=1>Andalucía</option>
+        <option value=2>Aragón</option>
+        <option value=3>Asturias</option>
+        <option value=4>Illes Balears</option>
+        <option value=5>Canarias</option>
+        <option value=6>Cantabria</option>
+        <option value=7>Castilla y León</option>
+        <option value=8>Castilla-La Mancha</option>
+        <option value=9>Catalunya</option>
+        <option value=10>Comunitat Valenciana</option>
+        <option value=11>Extremadura</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <p>¿Le gusta el brócoli?</p>
+    </div>
+    <div class="col-75">
+      <label for=rSi>Sí</label><input type=radio id=rSi name=brocoli value=si />
+      <label for=rSi>No</label><input type=radio id=rNo name=brocoli value=no />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">&nbsp;</div>
+    <div class="col-75">
+      <label for=iPolitica>Acepta política de Privacidad </label><input type=checkbox id=iPolitica />
+    </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
