@@ -1,0 +1,64 @@
+/**
+  mecatron3k.css
+  Fichero de estilo CSS del Juego MecaTRON - 3000
+  Miguel Jaque <mjaque@fundacionloyola.es>
+  Licencia GPL v3 2021
+**/
+
+/* Div principal centrado */
+#divPrincipal{
+  position: relative;
+  width: 90%;
+  height: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+/* Reglas para las palabras que vuelan */
+.palabra{
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  color: grey;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.palabra:nth-child(1){
+  top: 100px;
+  left: 50px;
+}
+
+.palabra:nth-child(2){
+  top: 300px;
+  left: 150px;
+}
+
+.palabra:nth-child(3){
+  top: 200px;
+  left: 250px;
+}
+
+.palabra span{
+  color: blue;
+}
+
+/* Estilos Gráficos de la Página */
+body{
+  background-color: blue;
+  color: white;
+  font-family: arial;
+  padding: 1em;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+  margin: 1em;
+}
